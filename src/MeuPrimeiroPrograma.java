@@ -1,15 +1,13 @@
 public class MeuPrimeiroPrograma {
 
     public static void main(String[] args) {
-        sum(10, 5);
-        sum(5, 10);
+        /*System.out.println("Bem vinda de volta, " + args[0]);
+        System.out.println(args[1]);
+        System.out.println(args[2]);
+        System.out.println(args[3]); */
+
     }
-    static void sum(int x, int y){
-        System.out.println(x + y);
-        System.out.println(x - y);
-        System.out.println(x / y);
-        System.out.println(x * y);
-    }
+
 
 
 }

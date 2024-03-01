@@ -3,7 +3,8 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 .idea
-/src/MeuPrimeiroPrograma.class
+MeuPrimeiroPrograma.class
+ProgramaCalculate.class
 
 ### Eclipse ###
 .apt_generated
