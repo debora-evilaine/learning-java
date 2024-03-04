@@ -18,7 +18,8 @@ public class CheckPassFail {
             int mark = scanner.nextInt();
             if (mark >= 50) {
                 System.out.println("PASS");
-            } else {
+            }
+            else {
                 System.out.println("FAIL");
             }
         }

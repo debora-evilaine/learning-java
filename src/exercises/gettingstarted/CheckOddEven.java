@@ -11,14 +11,14 @@ public class CheckOddEven {
         Scanner scanner = new Scanner(System.in);
 
         try{
-        System.out.println("Enter the number to be checked: ");
-        int number = scanner.nextInt();
+            System.out.println("Enter the number to be checked: ");
+            int number = scanner.nextInt();
 
-        if (number % 2 != 0) {
-            System.out.println("Odd number.");
-        } else {
-            System.out.println("Even number.");
-        }
+            if (number % 2 != 0) {
+                System.out.println("Odd number.");
+            } else {
+                System.out.println("Even number.");
+            }
         }
         catch(InputMismatchException e){
             System.out.println("Input error: " + e.getMessage());
