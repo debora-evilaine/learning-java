@@ -1,3 +1,5 @@
+import co.deborasousa.meuprimeiroprograma.User;
+
 import java.util.Random;
 
 public class MeuPrimeiroPrograma {
@@ -5,24 +7,13 @@ public class MeuPrimeiroPrograma {
     public static void main(String[] args){
         Random generate = new Random();
 
-        //Gera um número aleatório que pode ir até
-        //a casa do número 60
+        /* Criando um novo usuário (objeto) a partir da
+        classe User.
+        O import não foi necessário, pois tanto esse arquivo
+        quanto o arquivo da classe User estão na mesma pasta pai */
+        //User user = new User();
 
-        int i;
-        /* while (i < 6){
-            int number = generate.nextInt(60);
-            System.out.println("O número é " + number);
-            i++;
-            System.out.println("O valor de i é " + i);
-            System.out.println();
-        } */
-
-        for(i = 0; i < 6; i++){
-            int number = generate.nextInt(60);
-            System.out.println("O número é " + number);
-            System.out.println("O valor de i é " + i);
-            System.out.println();
-        }
+        User user = new User();
 
 
 
