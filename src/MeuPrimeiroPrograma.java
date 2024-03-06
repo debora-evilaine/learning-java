@@ -2,27 +2,20 @@ import java.util.Scanner;
 
 public class MeuPrimeiroPrograma {
     public static void main(String[] args){
-        int x = 2;
-        Integer y = 4; /* Integer é uma classe que "engloba" o conceito
-        de inteiro, e abre portas para mais manipulação desse objeto
-         da classe Integer */
+        int x = 10;//Adição do x como variável global
+        System.out.println("Antes de ressign: " + x);
+        /* if (true){
+            int x = 10; /* Variável local a esse escopo; não é
+            acessável fora desse if
+        }
+        System.out.println(x); */
 
-        System.out.println(y);
+        //CORRIGIDA:
 
-        System.out.println(x);
-
-        System.out.println("soma " + (x+y));
-
-
-        /* Exemplos de métodos que podem ser utilizados ao declarar um objeto
-         da classe integer:
-         */
-        System.out.println(y.byteValue());
-        System.out.println(y.toString());
-        System.out.println(y.doubleValue());
-        System.out.println(y.floatValue());
-        System.out.println(y.compareTo(5));
-
+        if(true){
+            x = 20;
+        }
+        System.out.println("Após o reassign: " + x);
 
     }
 }
