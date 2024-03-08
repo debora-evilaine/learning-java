@@ -1,6 +1,7 @@
 package exercises.gettingstarted;
 import java.util.InputMismatchException;
 import java.util.Scanner;
+import co.debora.MeuPrimeiroPrograma;
 
 public class CheckOddEven {
     /* Write a program called CheckOddEven which prints "Odd Number" if
@@ -26,5 +27,16 @@ public class CheckOddEven {
         finally{
             System.out.println("bye!");
         }
+
+        System.out.println(MeuPrimeiroPrograma.y);
+        /* Posso fazer isso porque "y" está definida como public, ou seja,
+        é acessível para todos os pacotes e classes*/
+
+        System.out.println(MeuPrimeiroPrograma.x);
+        /* Não posso fazer isso, porque x está definida como default,
+        * ou seja, é acessível apenas para as classes pertencentes
+        * ao mesmo pacote que ela. */
+
+        System.out.println(MeuPrimeiroPrograma.z);
     }
 }
